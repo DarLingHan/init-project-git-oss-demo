@@ -1,0 +1,23 @@
+{
+  "name": "init-project-git-oss-demo",
+  "version": "1.0.0",
+  "description": "基于模版在gitlab上创建项目并且接入oss自动部署服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitlab",
+    "git",
+    "部署",
+    "多环境"
+  ],
+  "author": "hl",
+  "license": "ISC",
+  "bin": {
+    "cli-hl": "bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
